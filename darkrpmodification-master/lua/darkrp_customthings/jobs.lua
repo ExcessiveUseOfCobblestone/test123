@@ -220,9 +220,7 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/glowing_one.mdl"},
    description = [[Glowing with radiation, this Ghoul is viewed as what we might refer to as an Emperor.
-   Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows.
-   
-   Because of their position of authority, most people tend to kill them in hopes that it weakens the species.]],
+   Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows. Because of their position of authority, most people tend to kill them in hopes that it weakens the species.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "glowingone",
    max = 5,
@@ -264,7 +262,7 @@ TEAM_MUTHUSK = DarkRP.createJob("Husk", {
    color = Color(81, 255, 0, 255),
    model = {"models/husk/slow.mdl"},
    description = [[Husks are on the "losing side" of Human-Mutant hybrids. Despite this, they are typically considered one of the more rational types of mutants.
-   If there ever was a chance for Human-Mutant coexistence, it would lie with these beings.]],
+   If there ever was a chance for human and mutant coexistence, it would lie with these beings.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "husk",
    max = 5,
@@ -278,9 +276,7 @@ TEAM_MUTHUSK = DarkRP.createJob("Husk", {
 TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/tau_commander/slow_tau_commander.mdl"},
-   description = [[This mutant is considered the "alpha male" of normal mutants. Allegedly, only the strongest mutant is tasked with this position and mutants constantly fight for this esteemed position.
-   
-   If a human found their way into the sewer, these guys would be the last one he or she wanted to see.]],
+   description = [[This mutant is considered the "alpha male" of normal mutants. Allegedly, only the strongest mutant is tasked with this position and mutants constantly fight for this esteemed position. If a human found their way into the sewer, these guys would be the last one he or she wanted to see.]],
    weapons = {"pocket","keys","m9k_fists","stunstick","airboatgun_minds"},
    command = "sp",
    max = 5,
@@ -295,9 +291,7 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
 TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
    color = Color(81, 255, 0, 255),
    model = {"models/wheatleymodels/soma/simon_divingsuit.mdl"},
-   description = [[Apart from the ghoul known as "The Glowing One", the Mutnitions Dealer is one of the rarest mutations for a mutant. These mutants have the ability to convert portions of their biomass and materials found in common currency to create weaponry for mutants.
-   
-   Scientists have tried to replicate this to no avail.]],
+   description = [[Apart from the ghoul known as "The Glowing One", the Mutnitions Dealer is one of the rarest mutations for a mutant. These mutants have the ability to convert portions of their biomass and materials found in common currency to create weaponry for mutants. Scientists have tried to replicate this to no avail.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "md",
    max = 5,
@@ -312,9 +306,7 @@ TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
 TEAM_MUT = DarkRP.createJob("Mutant", {
    color = Color(81, 255, 0, 255),
    model = {"models/hellknight/hellknight.mdl"},
-   description = [[ Closely related to the one known as "The Primal Mutant", these are the basic form of mutants.
-   
-   Highly animalistic in nature, these guys are extremely territorial and will hunt any non-mutant who (unfortunately) finds their way into the sewer.]],
+   description = [[ Closely related to the one known as "The Primal Mutant", these are the basic form of mutants. Highly animalistic in nature, these guys are extremely territorial and will hunt any non-mutant who (unfortunately) finds their way into the sewer.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "mut",
    max = 0,
