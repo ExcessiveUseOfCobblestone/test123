@@ -231,12 +231,6 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    vote = false,
    hasLicense = false,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
    category = "Mut",
    customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end, -- The extra check function. Enter nil or nothing to not have a restriction
    CustomCheckFailMsg = "This job is VIP only!",
@@ -263,12 +257,6 @@ TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    vote = false,
    hasLicense = false,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
    category = "Mut",
 })
 TEAM_MUTHUSK = DarkRP.createJob("Husk", {
@@ -284,12 +272,6 @@ TEAM_MUTHUSK = DarkRP.createJob("Husk", {
    vote = false,
    hasLicense = false,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
    category = "Mut",
 })
 TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
@@ -306,13 +288,7 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    vote = true,
    hasLicense = true,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
-   NeedToChangeFrom = {TEAM_MUT,}
+   NeedToChangeFrom = {TEAM_MUT},
    category = "Mut",
 })
 TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
@@ -344,19 +320,13 @@ TEAM_MUT = DarkRP.createJob("Mutant", {
    
    Highly animalistic in nature, these guys are extremely territorial and will hunt any non-mutant who (unfortunately) finds their way into the sewer.]],
    weapons = {"pocket","keys","m9k_fists"},
-   command = "m",
+   command = "mut",
    max = 0,
    salary = 45,
    admin = 0,
    vote = false,
    hasLicense = false,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
    category = "Mut",
 })
 TEAM_MUTCIT = DarkRP.createJob("Mutated Citizen  ", {
@@ -371,12 +341,6 @@ TEAM_MUTCIT = DarkRP.createJob("Mutated Citizen  ", {
    vote = false,
    hasLicense = false,
    candemote = true,
-   -- CustomCheck
-   medic = false,
-   chief = false,
-   mayor = false,
-   hobo = false,
-   cook = false,
    category = "Mut",
 })
 
