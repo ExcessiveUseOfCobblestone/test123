@@ -220,7 +220,9 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/glowing_one.mdl"},
    description = [[Glowing with radiation, this Ghoul is viewed as what we might refer to as an Emperor.
-   Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows.]],
+   Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows.
+   
+   Because of their position of authority, most people tend to kill them in hopes that it weakens the species.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "glowingone",
    max = 5,
@@ -237,7 +239,17 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    cook = false,
    category = "Mut",
    customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end, -- The extra check function. Enter nil or nothing to not have a restriction
-   CustomCheckFailMsg = "This job is VIP only!"
+   CustomCheckFailMsg = "This job is VIP only!",
+   PlayerDeath = function(ply, weapon, killer)
+		ply:teamBan()
+		ply:changeTeam(TEAM_MUTGHOUL, true)
+		if killer:IsPlayer() then
+			DarkRP.notifyAll(0, 4, "The Glowing One has been slain!")
+			killer:addmoney(1000) -- AHHHHHHHHH may break
+		else
+			DarkRP.notifyAll(0, 4, "The mutant leader has died!")
+		end
+	end,
 }) -- May make this non-VIP and probably add an actual VIP job. This looks like "mutant mayor".
 TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    color = Color(81, 255, 0, 255),
