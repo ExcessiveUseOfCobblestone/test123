@@ -339,7 +339,7 @@ TEAM_MUTGOD = DarkRP.createJob("Mutant God", {
 		"models/player/fallout_3/tesla_power_armor.mdl",
 		},
 	description = [[I NEED A DESCRIPTION]],
-	weapons = {"fireball_minds","acidball_minds","frostball_minds",},
+	weapons = {"fireball_minds","acidball_minds","frostball_minds","blink_swep"},
 	command = "mutgod",
 	max = 1, 
 	salary = 300,
