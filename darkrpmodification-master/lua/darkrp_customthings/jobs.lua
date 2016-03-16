@@ -1,20 +1,14 @@
 --[[---------------------------------------------------------------------------
 DarkRP custom jobs
 ---------------------------------------------------------------------------
-
 This file contains your custom jobs.
 This file should also contain jobs from DarkRP that you edited.
-
 Note: If you want to edit a default DarkRP job, first disable it in darkrp_config/disabled_defaults.lua
 	Once you've done that, copy and paste the job to this file and edit it.
-
 The default jobs can be found here:
 https://github.com/FPtje/DarkRP/blob/master/gamemode/config/jobrelated.lua
-
 For examples and explanation please visit this wiki page:
 http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
-
-
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
 TEAM_CITIZEN = DarkRP.createJob("Citizen", {
@@ -216,7 +210,7 @@ TEAM_HOBO = DarkRP.createJob("Hobo", {
     hobo = true,
     category = "Citizens",
 })
-TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
+TEAM_MUT = DarkRP.createJob("The Glowing One", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/glowing_one.mdl"},
    description = [[This ghoul is glowing with radiation causing the others to view him as a god king]],
@@ -238,7 +232,7 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end, -- The extra check function. Enter nil or nothing to not have a restriction
    CustomCheckFailMsg = "This job is VIP only!"
 })
-TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
+TEAM_MUT = DarkRP.createJob("Ghoul", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/ghoul.mdl"},
    description = [[This mutant is the lowest of the low. The ghouls only follow The Glowing One and will never go against it.]],
@@ -258,7 +252,7 @@ TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUTHUSK = DarkRP.createJob("Husk", {
+TEAM_MUT = DarkRP.createJob("Husk", {
    color = Color(81, 255, 0, 255),
    model = {"models/husk/slow.mdl"},
    description = [[]],
@@ -278,7 +272,7 @@ TEAM_MUTHUSK = DarkRP.createJob("Husk", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
+TEAM_MUT = DarkRP.createJob("Sewer Patroller ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/tau_commander/slow_tau_commander.mdl"},
    description = [[This mutant is nothing but a husk of it's former self. This mutant serves as a slave for the others.]],
@@ -298,7 +292,7 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
+TEAM_MUT = DarkRP.createJob("Mutnitions Dealer", {
    color = Color(81, 255, 0, 255),
    model = {"models/wheatleymodels/soma/simon_divingsuit.mdl"},
    description = [[Deals weapons]],
@@ -338,7 +332,7 @@ TEAM_MUT = DarkRP.createJob("MUTANT", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUTCIT = DarkRP.createJob("MUTATED Citizen  ", {
+TEAM_MUT = DarkRP.createJob("MUTATED Citizen  ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/Group01/male_02.mdl"},
    description = [[You Gens are altered therefore the Government Classfiys you as a Mutant You May Chnage your job title with /job]],
