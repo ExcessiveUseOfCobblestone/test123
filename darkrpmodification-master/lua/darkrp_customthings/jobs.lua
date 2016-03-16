@@ -219,7 +219,8 @@ TEAM_HOBO = DarkRP.createJob("Hobo", {
 TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/glowing_one.mdl"},
-   description = [[This ghoul is glowing with radiation causing the others to view him as a god king]],
+   description = [[Glowing with radiation, this Ghoul is viewed as what we might refer to as an Emperor.
+   Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "glowingone",
    max = 5,
@@ -237,11 +238,11 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    category = "Mut",
    customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end, -- The extra check function. Enter nil or nothing to not have a restriction
    CustomCheckFailMsg = "This job is VIP only!"
-})
+}) -- May make this non-VIP and probably add an actual VIP job. This looks like "mutant mayor".
 TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/ghoul.mdl"},
-   description = [[This mutant is the lowest of the low. The ghouls only follow The Glowing One and will never go against it.]],
+   description = [[These Mutants are acolytes to "The Glowing One". They exist only to serve it.]],
    weapons = {"pocket","keys,m9k_fists"},
    command = "ghoul",
    max = 0,
@@ -261,7 +262,8 @@ TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
 TEAM_MUTHUSK = DarkRP.createJob("Husk", {
    color = Color(81, 255, 0, 255),
    model = {"models/husk/slow.mdl"},
-   description = [[]],
+   description = [[Husks are on the "losing side" of Human-Mutant hybrids. Despite this, they are typically considered one of the more rational types of mutants.
+   If there ever was a chance for Human-Mutant coexistence, it would lie with these beings.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "husk",
    max = 5,
@@ -281,7 +283,9 @@ TEAM_MUTHUSK = DarkRP.createJob("Husk", {
 TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/tau_commander/slow_tau_commander.mdl"},
-   description = [[This mutant is nothing but a husk of it's former self. This mutant serves as a slave for the others.]],
+   description = [[This mutant is considered the "alpha male" of normal mutants. Allegedly, only the strongest mutant is tasked with this position and mutants constantly fight for this esteemed position.
+   
+   If a human found their way into the sewer, these guys would be the last one he or she wanted to see.]],
    weapons = {"pocket","keys","m9k_fists","stunstick","airboatgun_minds"},
    command = "sp",
    max = 5,
@@ -296,12 +300,15 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    mayor = false,
    hobo = false,
    cook = false,
+   NeedToChangeFrom = {TEAM_MUT,}
    category = "Mut",
 })
 TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
    color = Color(81, 255, 0, 255),
    model = {"models/wheatleymodels/soma/simon_divingsuit.mdl"},
-   description = [[Deals weapons]],
+   description = [[Apart from the ghoul known as "The Glowing One", the Mutnitions Dealer is one of the rarest mutations for a mutant. These mutants have the ability to convert portions of their biomass and materials found in common currency to create weaponry for mutants.
+   
+   Scientists have tried to replicate this to no avail.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "md",
    max = 5,
@@ -318,10 +325,12 @@ TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUT = DarkRP.createJob("MUTANT", {
+TEAM_MUT = DarkRP.createJob("Mutant", {
    color = Color(81, 255, 0, 255),
    model = {"models/hellknight/hellknight.mdl"},
-   description = [[You Are Nothing you live underground and that is where your born and that is where die ]],
+   description = [[ Closely related to the one known as "The Primal Mutant", these are the basic form of mutants.
+   
+   Highly animalistic in nature, these guys are extremely territorial and will hunt any non-mutant who (unfortunately) finds their way into the sewer.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "m",
    max = 0,
@@ -338,10 +347,10 @@ TEAM_MUT = DarkRP.createJob("MUTANT", {
    cook = false,
    category = "Mut",
 })
-TEAM_MUTCIT = DarkRP.createJob("MUTATED Citizen  ", {
+TEAM_MUTCIT = DarkRP.createJob("Mutated Citizen  ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/Group01/male_02.mdl"},
-   description = [[You Gens are altered therefore the Government Classfiys you as a Mutant You May Chnage your job title with /job]],
+   description = [[Unlike their husk counterparts, these mutants are mostly comprised of human DNA. Because of this, they look and appear like normal humans. Because of this, they are mainly used by the mutant race to as spies. However, if found out, they will be treated like any other mutant who is above-ground.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "m0",
    max = 0,
