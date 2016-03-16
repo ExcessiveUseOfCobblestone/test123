@@ -288,7 +288,7 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    vote = true,
    hasLicense = true,
    candemote = true,
-   NeedToChangeFrom = {"TEAM_MUT",} ,
+   NeedToChangeFrom = { TEAM_MUT, } ,
    category = "Mut",
 })
 TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
