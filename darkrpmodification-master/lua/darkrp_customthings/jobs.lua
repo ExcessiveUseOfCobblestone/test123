@@ -243,8 +243,9 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
 		else
 			DarkRP.notifyAll(0, 4, "The mutant leader has died!")
 		end
-	end,
-}) -- May make this non-VIP and probably add an actual VIP job. This looks like "mutant mayor".
+end,
+ -- May make this non-VIP and probably add an actual VIP job. This looks like "mutant mayor".
+})
 TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    color = Color(81, 255, 0, 255),
    model = {"models/fallout_3/ghoul.mdl"},
@@ -288,7 +289,7 @@ TEAM_MUTSP = DarkRP.createJob("Sewer Patroller ", {
    vote = true,
    hasLicense = true,
    candemote = true,
-   NeedToChangeFrom = { TEAM_MUT, } ,
+   NeedToChangeFrom = TEAM_MUT,
    category = "Mut",
 })
 TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
@@ -307,6 +308,7 @@ TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
    candemote = true,
    category = "Mut",
 })
+
 TEAM_MUT = DarkRP.createJob("Mutant", {
    color = Color(81, 255, 0, 255),
    model = {"models/hellknight/hellknight.mdl"},
@@ -323,6 +325,7 @@ TEAM_MUT = DarkRP.createJob("Mutant", {
    candemote = true,
    category = "Mut",
 })
+
 TEAM_MUTCIT = DarkRP.createJob("Mutated Citizen  ", {
    color = Color(81, 255, 0, 255),
    model = {"models/player/Group01/male_02.mdl"},
@@ -353,7 +356,7 @@ TEAM_MUTGOD = DarkRP.createJob("Mutant God", {
 	hasLicense = false,
 	customCheck = function(ply) return ply:SteamID() == "STEAM_0:1:88082095" end,
 	category = "Mut",
-	})
+})
 
 
 
