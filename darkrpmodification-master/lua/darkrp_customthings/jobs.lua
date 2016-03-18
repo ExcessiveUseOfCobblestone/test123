@@ -389,7 +389,7 @@ TEAM_HIVE = DarkRP.createJob("Hivemind", {
    vote = false,
    hasLicense = false,
    candemote = true,
-   category = "mut",
+   category = "Mut",
    customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end,
 })
 
