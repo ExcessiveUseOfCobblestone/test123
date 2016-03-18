@@ -266,7 +266,6 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
 		ply:changeTeam(TEAM_MUTGHOUL, true)
 		if killer:IsPlayer() then
 			DarkRP.notifyAll(0, 4, "The Glowing One has been slain!")
-			killer:addmoney(1000) -- AHHHHHHHHH may break because i'm fucking retarded
 		else
 			DarkRP.notifyAll(0, 4, "The mutant leader has died!")
 		end
