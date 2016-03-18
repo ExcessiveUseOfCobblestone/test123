@@ -337,6 +337,7 @@ GM.Config.DefaultWeapons = {
     "gmod_tool",
     "pocket",
     "weapon_physgun",
+    "fists",
 }
 
 -- Override categories.
