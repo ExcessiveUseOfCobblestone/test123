@@ -9,4 +9,4 @@ AddAgenda(Title of the agenda, Manager (who edits it), {Listeners (the ones who 
 ---------------------------------------------------------------------------]]
 -- Example: AddAgenda("Gangster's agenda", TEAM_MOB, {TEAM_GANG})
 -- Example: AddAgenda("Police agenda", TEAM_MAYOR, {TEAM_CHIEF, TEAM_POLICE})
-AddAgenda("Mutant Hivemind", Manager (TEAM_MUTGLOW), {, TEAM_MUTGHOUL, TEAM_MUTHUSK, TEAM_MUTSP, TEAM_MUTDEAL, TEAM_MUT, TEAM_MUTCIT, TEAM_MUTGOD})
+AddAgenda("Mutant Hivemind", Manager (TEAM_MUTGLOW), {, TEAM_MUTGHOUL, TEAM_MUTHUSK, TEAM_MUTSP, TEAM_MUTDEAL, TEAM_MUT, TEAM_MUTCIT, TEAM_MUTGOD, TEAM_HIVE,})
