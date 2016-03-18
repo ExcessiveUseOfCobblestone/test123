@@ -46,6 +46,36 @@ TEAM_CITIZEN = DarkRP.createJob("Citizen", {
     candemote = false,
     category = "Citizens",
 })
+TEAM_NINJA = DarkRP.createJob("Ninja", {
+   color = Color(102, 92, 92, 255),
+   model = {"models/player/arctic.mdl"},
+   description = [[A parkour master who uses his abilities to raid people.]],
+   weapons = {"climb_swep2",},
+   command = "ninja",
+   max = 3,
+   salary = 75,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = true,
+   category = "Citizens",
+   customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end,
+})
+
+TEAM_DEPAGENT = DarkRP.createJob("Deportation Agent", {
+   color = Color(44, 189, 209, 255),
+   model = {"models/player/01ar_combine_soldier02.mdl"},
+   description = [[This Civil Protection member stays in the sewers and contains the mutants.]],
+   weapons = {"m9k_m4a1", "m9k_colt1911", "arrest_stick", "unarrest_stick", "weaponchecker", "door_ram", "stunstick"},
+   command = "deport",
+   max = 4,
+   salary = 75,
+   admin = 0,
+   vote = true,
+   hasLicense = true,
+   candemote = true,
+   category = "Civil Protection",
+})
 
 TEAM_POLICE = DarkRP.createJob("Civil Protection", {
     color = Color(25, 25, 170, 255),
@@ -352,7 +382,7 @@ TEAM_HIVE = DarkRP.createJob("Hivemind", {
    color = Color(232, 8, 34, 255),
    model = {"models/player/collector_drone.mdl"},
    description = [[This mutant seems to have reacted differently than the other mutants, causing it to look like a giant bug. This mutant can spray webs to move around and attack its prey.]],
-   weapons = {weapon_spiderman, weapon_spiderman, keys, pocket},
+   weapons = {"weapon_spiderman", "weapon_spiderman",},
    command = "hive",
    max = 3,
    salary = 75,
@@ -361,6 +391,7 @@ TEAM_HIVE = DarkRP.createJob("Hivemind", {
    hasLicense = false,
    candemote = true,
    category = "mut",
+   customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end,
 })
 
 
