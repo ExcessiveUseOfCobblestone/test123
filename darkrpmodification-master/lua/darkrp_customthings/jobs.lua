@@ -248,7 +248,7 @@ TEAM_HOBO = DarkRP.createJob("Hobo", {
 })
 TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    color = Color(81, 255, 0, 255),
-   model = {"models/fallout_3/glowing_one.mdl"},
+   model = {"models/player/fallout_3/glowing_one.mdl"},
    description = [[Glowing with radiation, this Ghoul is viewed as what we might refer to as an Emperor.
    Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows. Because of their position of authority, most people tend to kill them in hopes that it weakens the species.]],
    weapons = {"fists",},
@@ -274,7 +274,7 @@ end,
 })
 TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
    color = Color(81, 255, 0, 255),
-   model = {"models/fallout_3/ghoul.mdl"},
+   model = {"models/player/fallout_3/ghoul.mdl"},
    description = [[These Mutants are acolytes to "The Glowing One". They exist only to serve it.]],
    weapons = {"fists",},
    command = "ghoul",
