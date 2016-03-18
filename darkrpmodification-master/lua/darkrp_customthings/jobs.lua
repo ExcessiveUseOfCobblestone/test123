@@ -349,7 +349,20 @@ TEAM_MUTGOD = DarkRP.createJob("Mutant God", {
 	customCheck = function(ply) return ply:SteamID() == "STEAM_0:1:88082095" end,
 	category = "Mut",
 })
-
+TEAM_HIVE = DarkRP.createJob("Hivemind", {
+   color = Color(232, 8, 34, 255),
+   model = {"models/player/collector_drone.mdl"},
+   description = [[This mutant seems to have reacted differently than the other mutants, causing it to look like a giant bug. This mutant can spray webs to move around and attack its prey.]],
+   weapons = {weapon_spiderman, weapon_spiderman, keys, pocket},
+   command = "hive",
+   max = 3,
+   salary = 75,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = true,
+   category = "mut",
+})
 
 
 --[[---------------------------------------------------------------------------
