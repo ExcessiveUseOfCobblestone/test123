@@ -223,21 +223,20 @@ TEAM_MUTGLOW = DarkRP.createJob("The Glowing One", {
    Due to this extremely rare mutation and the fact that their bodies quickly decompose postmortem, not much is known about "The Glowing One" except... well... that it glows. Because of their position of authority, most people tend to kill them in hopes that it weakens the species.]],
    weapons = {"pocket","keys","m9k_fists"},
    command = "glowingone",
-   max = 5,
+   max = 1,
    salary = 250,
    admin = 0,
    vote = false,
    hasLicense = false,
    candemote = true,
    category = "Mut",
-   customCheck = function(ply) return ply:GetNWString("usergroup") == "VIP" or ply:IsAdmin() end, -- The extra check function. Enter nil or nothing to not have a restriction
-   CustomCheckFailMsg = "This job is VIP only!",
+   NeedToChangeFrom = TEAM_MUTGHOUL ,
    PlayerDeath = function(ply, weapon, killer)
 		ply:teamBan()
 		ply:changeTeam(TEAM_MUTGHOUL, true)
 		if killer:IsPlayer() then
 			DarkRP.notifyAll(0, 4, "The Glowing One has been slain!")
-			killer:addmoney(1000) -- AHHHHHHHHH may break
+			killer:addmoney(1000) -- AHHHHHHHHH may break because i'm fucking retarded
 		else
 			DarkRP.notifyAll(0, 4, "The mutant leader has died!")
 		end
