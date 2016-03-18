@@ -288,7 +288,7 @@ TEAM_MUTGHOUL = DarkRP.createJob("Ghoul", {
 })
 TEAM_MUTHUSK = DarkRP.createJob("Husk", {
    color = Color(81, 255, 0, 255),
-   model = {"models/husk/slow.mdl"},
+   model = {"models/player/husk/slow.mdl"},
    description = [[Husks are on the "losing side" of Human-Mutant hybrids. Despite this, they are typically considered one of the more rational types of mutants.
    If there ever was a chance for human and mutant coexistence, it would lie with these beings.]],
    weapons = {"fists",},
@@ -333,7 +333,7 @@ TEAM_MUTDEAL = DarkRP.createJob("Mutnitions Dealer", {
 
 TEAM_MUT = DarkRP.createJob("Mutant", {
    color = Color(81, 255, 0, 255),
-   model = {"models/hellknight/hellknight.mdl"},
+   model = {"models/player/hellknight/hellknight.mdl"},
    description = [[ Closely related to the one known as "The Primal Mutant", these are the basic form of mutants. Highly animalistic in nature, these guys are extremely territorial and will hunt any non-mutant who (unfortunately) finds their way into the sewer.]],
    weapons = {"fists",},
    command = "mut",
