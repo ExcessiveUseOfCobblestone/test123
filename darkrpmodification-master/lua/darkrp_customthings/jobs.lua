@@ -409,6 +409,7 @@ GAMEMODE.CivilProtection = {
 	[TEAM_POLICE] = true,
 	[TEAM_CHIEF] = true,
 	[TEAM_MAYOR] = true,
+	[TEAM_DEPAGENT] = true,
 }
 
 --[[---------------------------------------------------------------------------
