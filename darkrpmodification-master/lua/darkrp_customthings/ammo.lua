@@ -163,27 +163,6 @@ DarkRP.createAmmoType("Rpg_Round", {
 	amountGiven = 1
 })
 
-DarkRP.createAmmoType("Nuclear_Warhead", {
-	name = "Nuclear Warhead (1)",
-	model = "models/failure/mk6/mk6.mdl",
-	price = 100000000,
-	amountGiven = 10
-})
-
-DarkRP.createAmmoType("NerveGas", {
-	name = "Nerve Gas Grenade (1)",
-	model = "models/healthvial.mdl",
-	price = 3500,
-	amountGiven = 1
-})
-
-DarkRP.createAmmoType("Improvised_Explosive", {
-	name = "IED (1)",
-	model = "models/weapons/w_camphon2.mdl",
-	price = 5000,
-	amountGiven = 1
-})
-
 DarkRP.createAmmoType("40mmgrenade", {
 	name = "40mm Grenade (1)",
 	model = "models/items/ammocrates/crate40mm.mdl",
