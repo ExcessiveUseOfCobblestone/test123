@@ -70,12 +70,20 @@ name = "Shotguns", -- The name of the category.
     sortOrder = 5, -- OPTIONAL: With this you can decide where your category is. Low numbers to put it on top, high numbers to put it on the bottom. It's 100 by default.
 }
 
-name = "Explosive Devices", -- The name of the category.
+name = "Melee Weaponry", -- The name of the category.
     categorises = "weapons", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".
     startExpanded = true, -- Whether the category is expanded when you open the F4 menu.
     color = Color( 107, 142, 35 , 255), -- The color of the category header.
     canSee = function(ply) return true end, -- OPTIONAL: whether the player can see this category AND EVERYTHING IN IT.
     sortOrder = 6, -- OPTIONAL: With this you can decide where your category is. Low numbers to put it on top, high numbers to put it on the bottom. It's 100 by default.
+}
+
+name = "Explosive Devices", -- The name of the category.
+    categorises = "weapons", -- What it categorises. MUST be one of "jobs", "entities", "shipments", "weapons", "vehicles", "ammo".
+    startExpanded = true, -- Whether the category is expanded when you open the F4 menu.
+    color = Color( 107, 142, 35 , 255), -- The color of the category header.
+    canSee = function(ply) return true end, -- OPTIONAL: whether the player can see this category AND EVERYTHING IN IT.
+    sortOrder = 7, -- OPTIONAL: With this you can decide where your category is. Low numbers to put it on top, high numbers to put it on the bottom. It's 100 by default.
 }
 
 
