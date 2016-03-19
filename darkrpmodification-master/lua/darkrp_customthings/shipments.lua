@@ -36,7 +36,8 @@ DarkRP.createShipment("Desert Eagle", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
 
 DarkRP.createShipment("Python Single", {
@@ -47,7 +48,8 @@ DarkRP.createShipment("Python Single", {
     seperate = false,
     pricesep = 1000,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
 
 DarkRP.createShipment("Colt 1911 Single", {
@@ -58,7 +60,8 @@ DarkRP.createShipment("Colt 1911 Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
 
 DarkRP.createShipment("HK 45C Single", {
@@ -69,7 +72,8 @@ DarkRP.createShipment("HK 45C Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })   
 
 
@@ -81,7 +85,8 @@ DarkRP.createShipment("Luger Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
 
 
@@ -93,7 +98,8 @@ DarkRP.createShipment("Raging Bull Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })   
 
 DarkRP.createShipment("S&W 500 Single", {
@@ -104,7 +110,8 @@ DarkRP.createShipment("S&W 500 Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })   
 
 DarkRP.createShipment("M29 Satan Single", {
@@ -115,7 +122,8 @@ DarkRP.createShipment("M29 Satan Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })   
    
 DarkRP.createShipment("Baretta Single", {
@@ -126,7 +134,8 @@ DarkRP.createShipment("Baretta Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
    
 DarkRP.createShipment("S&W Model 3 Russian Single", {
@@ -137,7 +146,8 @@ DarkRP.createShipment("S&W Model 3 Russian Single", {
     seperate = false, 
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })   
 
 DarkRP.createShipment("S&W 627 Single", {
@@ -148,7 +158,8 @@ DarkRP.createShipment("S&W 627 Single", {
     seperate = false,
     pricesep = 500,
     noship = true,
-    allowed = {TEAM_GUN}
+    allowed = {TEAM_GUN},
+    category = "Pistols"
 })
 
 DarkRP.createShipment("Winchester-73", {
@@ -159,7 +170,8 @@ DarkRP.createShipment("Winchester-73", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
        
 DarkRP.createShipment("ACR", {
@@ -170,7 +182,8 @@ DarkRP.createShipment("ACR", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("AK-47", {
@@ -181,7 +194,8 @@ DarkRP.createShipment("AK-47", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("AK-74", {
@@ -192,7 +206,8 @@ DarkRP.createShipment("AK-74", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("AMD-65", {
@@ -203,7 +218,8 @@ DarkRP.createShipment("AMD-65", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
        
 DarkRP.createShipment("An-94", {
@@ -214,7 +230,8 @@ DarkRP.createShipment("An-94", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("AS VAL", {
@@ -225,7 +242,8 @@ DarkRP.createShipment("AS VAL", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("F-2000", {
@@ -236,7 +254,8 @@ DarkRP.createShipment("F-2000", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("Famas", {
@@ -247,7 +266,8 @@ DarkRP.createShipment("Famas", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("FN-FAL", {
@@ -258,7 +278,8 @@ DarkRP.createShipment("FN-FAL", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("G-36", {
@@ -269,7 +290,8 @@ DarkRP.createShipment("G-36", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M-416", {
@@ -280,7 +302,8 @@ DarkRP.createShipment("M-416", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("HK G3A3", {
@@ -291,7 +314,8 @@ DarkRP.createShipment("HK G3A3", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("L-85", {
@@ -302,7 +326,8 @@ DarkRP.createShipment("L-85", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M-14", {
@@ -313,7 +338,8 @@ DarkRP.createShipment("M-14", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M16A4", {
@@ -324,7 +350,8 @@ DarkRP.createShipment("M16A4", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M4A1", {
@@ -335,7 +362,8 @@ DarkRP.createShipment("M4A1", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("Scar-H", {
@@ -346,7 +374,8 @@ DarkRP.createShipment("Scar-H", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("Ares Shrike", {
@@ -357,7 +386,8 @@ DarkRP.createShipment("Ares Shrike", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("S3-3M Vikhir", {
@@ -368,7 +398,8 @@ DarkRP.createShipment("S3-3M Vikhir", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("FG-42", {
@@ -379,7 +410,8 @@ DarkRP.createShipment("FG-42", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("Aug-A3", {
@@ -390,7 +422,8 @@ DarkRP.createShipment("Aug-A3", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("Tar-21", {
@@ -401,7 +434,8 @@ DarkRP.createShipment("Tar-21", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M1918 Bar", {
@@ -412,7 +446,8 @@ DarkRP.createShipment("M1918 Bar", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M-249", {
@@ -423,7 +458,8 @@ DarkRP.createShipment("M-249", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M60", {
@@ -434,7 +470,8 @@ DarkRP.createShipment("M60", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("PKM", {
@@ -445,7 +482,8 @@ DarkRP.createShipment("PKM", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Assault Rifles"
 })
 
 DarkRP.createShipment("M3", {
@@ -456,7 +494,9 @@ DarkRP.createShipment("M3", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
+        
 })
 
 DarkRP.createShipment("Browning Auto", {
@@ -467,7 +507,8 @@ DarkRP.createShipment("Browning Auto", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
        
 DarkRP.createShipment("Double Barrel Shotgun", {
@@ -478,7 +519,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Ithaca 37", {
@@ -489,7 +531,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Mossberg 590", {
@@ -500,7 +543,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Pancor Jackhammer", {
@@ -511,7 +555,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Remington-870", {
@@ -522,7 +567,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Spas-12", {
@@ -533,7 +579,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Striker-12", {
@@ -544,7 +591,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("USAS", {
@@ -555,7 +603,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Winchester-1897", {
@@ -566,7 +615,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("Winchester-1887", {
@@ -577,7 +627,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Shotguns"
 })
 
  DarkRP.createShipment("AW-50", {
@@ -589,6 +640,7 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         pricesep = 500,
         noship = true,
         allowed = {TEAM_GUN}
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("Barret-M82", {
@@ -599,7 +651,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("M98b", {
@@ -610,7 +663,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("SVU", {
@@ -621,7 +675,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("Sl8", {
@@ -632,7 +687,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("Intervention", {
@@ -643,7 +699,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("M-24", {
@@ -654,7 +711,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
  DarkRP.createShipment("Remington 7615p", {
@@ -665,7 +723,8 @@ DarkRP.createShipment("Double Barrel Shotgun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
 DarkRP.createShipment("PSG-1", {
@@ -676,7 +735,8 @@ DarkRP.createShipment("PSG-1", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
 
 DarkRP.createShipment("Dragunov", {
@@ -687,7 +747,8 @@ DarkRP.createShipment("Dragunov", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
        
 DarkRP.createShipment("SVT 40", {
@@ -698,7 +759,8 @@ DarkRP.createShipment("SVT 40", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
        
 DarkRP.createShipment("Contender", {
@@ -709,7 +771,8 @@ DarkRP.createShipment("Contender", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Sniper Rifles"
 })
        
 DarkRP.createShipment("EX41", {
@@ -720,7 +783,8 @@ DarkRP.createShipment("EX41", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("Frag Grenade", {
@@ -731,7 +795,8 @@ DarkRP.createShipment("Frag Grenade", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("M202", {
@@ -742,7 +807,8 @@ DarkRP.createShipment("M202", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("Knife", {
@@ -753,7 +819,8 @@ DarkRP.createShipment("Knife", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Melee Weaponry"
 })
 
 DarkRP.createShipment("Machete", {
@@ -764,7 +831,8 @@ DarkRP.createShipment("Machete", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+         category = "Melee Weaponry"
 })
        
 DarkRP.createShipment("M79 Gl", {
@@ -775,7 +843,8 @@ DarkRP.createShipment("M79 Gl", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("Matador", {
@@ -786,7 +855,8 @@ DarkRP.createShipment("Matador", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("Milkor MGl", {
@@ -797,7 +867,8 @@ DarkRP.createShipment("Milkor MGl", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("RPG-7", {
@@ -808,7 +879,8 @@ DarkRP.createShipment("RPG-7", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "Explosive Devices"
 })
        
 DarkRP.createShipment("Bizon P19", {
@@ -819,7 +891,8 @@ DarkRP.createShipment("Bizon P19", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
            
@@ -831,7 +904,8 @@ DarkRP.createShipment("AAC Honeybadger", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("FM P90", {
@@ -842,7 +916,8 @@ DarkRP.createShipment("FM P90", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("HK MP5", {
@@ -853,7 +928,8 @@ DarkRP.createShipment("HK MP5", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("HK MP7", {
@@ -864,7 +940,8 @@ DarkRP.createShipment("HK MP7", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("HK UMP45", {
@@ -875,7 +952,8 @@ DarkRP.createShipment("HK UMP45", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("HK USC", {
@@ -886,7 +964,8 @@ DarkRP.createShipment("HK USC", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("KAC PDW", {
@@ -897,7 +976,8 @@ DarkRP.createShipment("KAC PDW", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("KRISS Vector", {
@@ -908,7 +988,8 @@ DarkRP.createShipment("KRISS Vector", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("Magpul PDR", {
@@ -919,7 +1000,8 @@ DarkRP.createShipment("Magpul PDR", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
 
 DarkRP.createShipment("MP40", {
@@ -930,7 +1012,8 @@ DarkRP.createShipment("MP40", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("MP5 SD", {
@@ -941,7 +1024,8 @@ DarkRP.createShipment("MP5 SD", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("Sten", {
@@ -952,7 +1036,8 @@ DarkRP.createShipment("Sten", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("Tec-9", {
@@ -963,7 +1048,8 @@ DarkRP.createShipment("Tec-9", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("Tommy Gun", {
@@ -974,7 +1060,8 @@ DarkRP.createShipment("Tommy Gun", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
        
 DarkRP.createShipment("Uzi", {
@@ -985,6 +1072,7 @@ DarkRP.createShipment("Uzi", {
         seperate = true,
         pricesep = 500,
         noship = true,
-        allowed = {TEAM_GUN}
+        allowed = {TEAM_GUN},
+        category = "SMGs"
 })
 
